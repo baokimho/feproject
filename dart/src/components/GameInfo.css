@@ -1,0 +1,58 @@
+/* Game Info Container */
+.game-info-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+/* Game Info Card */
+.game-info-card {
+    background-color: #552e23;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+    color: #fff;
+    overflow: hidden;
+    max-width: 400px;
+    width: 100%;
+}
+
+/* Game Info Header */
+.game-info-header {
+    background-color: #e5714e;
+    padding: 15px;
+}
+
+/* Game Info Header h3 */
+.game-info-header h3 {
+    margin: 0;
+    font-size: 24px;
+    text-align: center;
+}
+
+/* Game Info Content */
+.game-info-content {
+    padding: 20px;
+}
+
+/* Info Item */
+.info-item {
+    margin-bottom: 15px;
+}
+
+/* Info Label */
+.info-label {
+    font-weight: bold;
+}
+
+/* Info Value */
+.info-value {
+    color: #ffffff;
+}
+
+/* Hover Effect */
+.game-info-card:hover {
+    transform: translateY(-5px);
+    transition: transform 0.3s ease;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+}

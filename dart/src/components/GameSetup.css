@@ -1,0 +1,98 @@
+/* Game Setup Container */
+.game-setup-container {
+    background-color: #f8f9fa;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+/* Setup Title */
+.setup-title {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+/* Form Container */
+.form-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Player Inputs Container */
+.player-inputs-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-bottom: 20px;
+}
+
+/* Player Input */
+.player-input {
+    flex-basis: 45%;
+    margin-bottom: 15px;
+}
+
+/* Player Input Label */
+.player-input label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+/* Player Name Input */
+.player-name-input {
+    width: calc(100% - 20px); /* Adjust the input width */
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+/* Game Options Container */
+.game-options-container {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+/* Game Option */
+.game-option {
+    margin: 0 10px;
+    width: 200px;
+}
+
+.game-option label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.game-type-select,
+.set-size-select {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+/* Start Game Button */
+.start-game-button {
+    background-color: #e88463;
+    color: #fff;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 18px;
+    transition: background-color 0.3s ease;
+}
+
+.start-game-button:hover {
+    background-color: #e88463;
+}
