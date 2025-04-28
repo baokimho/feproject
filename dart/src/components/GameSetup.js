@@ -21,6 +21,12 @@ export const GameSetup = () => {
     };
 
     const handleContextButtonClick = () => {
+
+        const emptyPlayerNames = gameState.players.some(player => player.name.trim() === '');
+        if (emptyPlayerNames) {
+            alert('Please fill in all player names before starting the game.');
+            return; // Prevent starting the game if any player name is empty
+        }
         setAppState('game');
     };
 
